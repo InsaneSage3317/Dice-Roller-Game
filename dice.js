@@ -10,7 +10,7 @@ let imageArr = [];
 for (let i = 0; i < noOfDice; i++) {
     let value = Math.floor(Math.random() * 6) + 1;
     values.push(value);
-    imageArr.push(`<img src="dice_images/${value}.png">`);
+    imageArr.push(`<img src="${value}.png">`);
 
 }
 
