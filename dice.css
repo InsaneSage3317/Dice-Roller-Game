@@ -1,0 +1,33 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    color: white;
+    background-color: hsl(237, 74%, 62%);
+    border: none;
+    border-radius: 5px;
+    max-width: 400px;
+    
+    align-items: space-evenly;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+#combo {
+    margin: 10px;
+    padding: 5px;
+}
+
+#roll {
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(271, 65%, 61%);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#roll:hover {
+    background-color: violet;
+}
